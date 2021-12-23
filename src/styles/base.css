@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
+
+h1{
+    font-size:60px;
+}
+
+h2{
+    font-size:40px;
+}
+
+h3{
+    font-size:30px;
+}
+
+p{
+    font-size:20px;
+}
+
+/*off white FAF9F6*/
+/*off white 2 F5F5F5*/
+/*cream F8F0E3 */
+body{
+    font-family: "Source Code Pro", sans-serif;
+    color:#393B45;
+    background-color:#F8F0E3
+}
+
+.tech li{
+    list-style: inside;
+}
+
+.fun li{
+    list-style: inside;
+}
+
+.fun li::marker {
+  content: "🧋 ";
+}

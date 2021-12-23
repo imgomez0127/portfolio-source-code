@@ -1,0 +1,31 @@
+[
+  {
+    "title": "K-pop face generator",
+    "description": "A generative model to create faces that look like K-pop idols. I experimented using both a VAE and GAN to try and model the prior distribution. Overall I was able to create some decent looking images although I wouldn't say they are super convincing. To improve this I would probably train on colab with better GPUs so that I can increase the model size and the resolution of the images.",
+    "link": "https://github.com/imgomez0127/face-generator"
+
+  },
+  {
+    "title": "DABNet",
+    "description": "A reinforcement learning model to play Dota Underlords. I used OpenCV to do a lot of the visual processing, and then implemented DQN algorithm to learn the which actions to take given a certain board state. Overall after a few thousand epochs it was able to win the first few rounds of a match against humans."
+  },
+  {
+    "title": "Meowtalk",
+    "description": "A web app which uses ML to provide different playlists based on a persons emotions. For this I implemented a sentiment analysis LSTM model which utilizes GloVE embeddings for the embedding layer. This was able to have a decently high accuracy on the dataset, and worked well for our hackathon demo.",
+    "link": "https://github.com/imgomez0127/HTNE"
+  },
+  {
+    "title": "ML Algorithm Implementations",
+    "description": "Random ML algorithm Implementations. I usually tested the algorithms on the Iris dataset. Most of these are just algorithms I learned in classes.",
+    "link": "https://github.com/imgomez0127/ml-algo-implementations"
+  },
+  {
+    "title": "Fake News Validator",
+    "description": "A research project to prevent the spread of Fake News. My partner and I developed an architecture to both detect fake news, and suggest articles which cross-validate the information proposed in the Fake News. We did this using hierarchical attention, and transformer models for suggestion and detection."
+  },
+  {
+    "title": "Job Post Generator",
+    "description": "An RNN language model to create job posts. This was created for a hackathon. I had to develop both the data gathering script, and the model training. It was able to generate a few realistic prompts, but definitely needed more data and training time.",
+    "link": "https://github.com/imgomez0127/Job-Post-Generator"
+  }
+]
